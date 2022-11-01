@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tela{
+    width: 95vw;
+    height: 400px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, #A85BB0 40%, #287A70);    
+    
+}

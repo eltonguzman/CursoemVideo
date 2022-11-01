@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abrir imagens em varios dispositivos diferentes, com tamanhos flexiveis</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem Flexivel">
+    </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender reproduzir áudios no html5</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio> <!--Audios compativeis com navegadores: MPF, WAV e OGG-->
+
+    <p>Adicionando a mesma música com formatos diferente: para que um navegador não haja compatibilidade com um formato, tentar reproduzir outros formatos:</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/The Joy Formidable - A Heavy Abacus.mp3" type="audio/mp3">
+        <source src="midia/The Joy Formidable - A Heavy Abacus.mp3.ogg" type="audio/ogg">
+        <source src="midia/The Joy Formidable - A Heavy Abacus.mp3.wav" type="audio/wav">
+       
+        <p>Infelizmente seu navegador não foi compativel com nenhum formato de música, <a href="midia/The Joy Formidable - A Heavy Abacus.mp3">clique aqui para fazer download</a>: </p>
+    </audio>
+    
+
+</body>
+</html>

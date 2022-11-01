@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.bloco {
+    background-image: url(../ex022/imagens/wallpaper002.jpg);
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+#q1 {
+    background-position: left top;
+}
+#q2 {
+    background-position: left center;
+}
+#q3 {
+    background-position: right bottom;
+}
+#q4 {
+    background-position: center center;
+}

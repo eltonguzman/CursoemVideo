@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+    /*Configuração global para CSS*/
+    height: 100%;
+}
+
+body {
+    background-image: radial-gradient(#31E89E, #33F2DB, #33A3F2 80%);
+    background-attachment: fixed;
+}
+
+/*radial-gradient = a partir de 3 cores*/
+/*radial-gradient = degrade em circulo*/

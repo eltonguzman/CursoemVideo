@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: solid;
+    border-style: groove;
+    border-width: 2px;
+    border-color: coral;
+    padding: 3px;
+}
+
+h1 {
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+
+    border: solid 8px rgba(222, 184, 135, 0.685);
+    border-radius: 5px;
+    /*border-width: 8px;
+            border-color: rgba(222, 184, 135, 0.685);
+            border-style: solid;*/
+
+    text-align: center;
+
+    padding: 10px 0px 0px 0px;
+    /*Espaço DENTRO do box do elemento*/
+
+    margin: 25px 0px 0px 15px;
+    /*Espaço FORA do box do elemento*/
+    /* "margin: auto" = centraliza o box (caixa) na tela*/
+
+    outline: dashed 7px cadetblue;
+    /* outline-style: dashed;
+            outline-width: 8px;
+            outline-color:cadetblue; */
+
+    /*"outline = uma borda entre margin e padding"*/
+}

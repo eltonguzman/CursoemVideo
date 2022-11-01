@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*em e px = tamanhos representaveis no css (recomendáveis a ser usados)
+            16px = 1em   */
+
+    font-size: 16px;
+    /*16px é tamanho padrão*/
+
+}
+
+h1 {
+    /* font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+    /*shorthand (delcarar tudo numa linha só) */
+
+    /* Ordem:
+             font-style > 
+             font-weight > 
+             font-size > 
+             font-family */
+
+    font: italic bolder 3em 'work sans', sans-serif;
+}
+
+h2 {
+    font: bolder 2em 'work sans', sans-serif;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu própio servidor.</p>
+    <video width="400" controls poster="imagens/fogo.jpg" loop>
+        <source src="midia/fire.webm" type="video/webm">
+        <source src="midia/fire.mp4" type="video/mp4">
+        <source src="midia/fire.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+        <!--A ordem dos vídeos são importantes. Se não conseguir reproduzir o primeiro, vai pro segundo e assim por diante-->
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <p>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/qilq22wt7gE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #9AEBA3, #13678A);
+    background-attachment: fixed;
+    color: white;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color: #005c53d9;
+}

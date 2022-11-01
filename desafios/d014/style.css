@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+}
+thead {
+    background-color: yellowgreen;
+    color: white;
+}
+tbody td {
+    text-align: center;
+}
+td {
+    background-color: lightgrey;
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.matematica, .fisica, .quimica, .biologia, .historia, .geografia {
+    text-align: left;
+}
+.mediaExata, .mediaHumanas {
+    background-color: yellowgreen;
+    color: white;
+
+}
+.mediaExata > td, .mediaHumanas > td{
+    background-color: yellowgreen;
+    font-weight: bold;
+}

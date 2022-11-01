@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div {
+    background-color: teal;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/*Pseudocalsse ':' (dois pontos), referente a estado dos elementos/classes*/
+div:hover {
+    background-color: crimson;
+}
